@@ -1,0 +1,27 @@
+
+<h1>New Employee Form</h1>
+
+<%= form_for @employee do |f|%>
+<%= f.text_field :first_name%>
+<%= f.text_field :last_name%>
+<%= f.text_field :alias%>
+<%= f.text_field :title%>
+<%= f.text_field :office%>
+<%= f.text_field :last_name%>
+
+
+
+
+<form action="/employees/new.html.erb">
+  <label for="dog_id">Choose a dog:</label>
+  <select name="dog_id" id="dog_id">
+    <option value="1">Murphy</option>
+    <option value="2">Duke</option>
+    <option value="3">Precious</option>
+    <option value="4">Lucky</option>
+    <option value="5">Sugar</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</end>
